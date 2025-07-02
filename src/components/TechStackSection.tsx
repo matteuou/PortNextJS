@@ -22,7 +22,7 @@ const TechStackSection: React.FC = () => {
     return (
         <section id="tech-stack" className="tech-stack-section">
             <h2>My Tech Stack</h2>
-            <p className="section-subtitle">Technologies I've been working with currently</p>
+            <p className="section-subtitle">Technologies I&apos;ve been working with currently</p>
             <div className="tech-icons">
                 {techIcons.map((tech, index) => (
                     <Image key={index} src={tech.src} alt={tech.alt} width={80} height={80} />

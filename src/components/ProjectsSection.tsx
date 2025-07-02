@@ -32,7 +32,7 @@ const ProjectsSection: React.FC = () => {
     return (
         <section id="projects" className="projects-section">
             <h2>My Projects</h2>
-            <p className="section-subtitle">Things I've built so far</p>
+            <p className="section-subtitle">Things I&apos;ve built so far</p>
             <div className="projects-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card">

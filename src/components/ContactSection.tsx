@@ -6,7 +6,7 @@ const ContactSection: React.FC = () => {
     return (
         <section id="contact" className="contact-section">
             <h2>Get in Touch</h2>
-            <p className="section-subtitle">I'd love to hear from you!</p>
+            <p className="section-subtitle">I&apos;d love to hear from you!</p>
             <div className="contact-container">
                 <div className="contact-form">
                     {}
