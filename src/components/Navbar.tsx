@@ -1,5 +1,7 @@
+// src/components/Navbar.tsx
 
-import Image from 'next/image';
+// REMOVA ESTA LINHA:
+// import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -7,6 +9,7 @@ const Navbar: React.FC = () => {
     return (
         <header className="navbar">
             <div className="logo">
+                {/* Você está usando texto aqui, não uma imagem */}
                 <h1>Martini</h1>
             </div>
             <nav>
@@ -23,4 +26,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-
