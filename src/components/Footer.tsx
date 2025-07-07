@@ -7,16 +7,16 @@ const Footer: React.FC = () => {
         <footer className="footer">
             <div className="footer-content">
                 <p>mateusrmartini@gmail.com | (11) 99942-5287 </p>
-                <p>Peace Out.. 👋</p>
+                <p>Se você quer saber mais sobre mim ou meu trabalho, ou se gostaria apenas de dizer olá, sinta-se à vontade para enviar uma mensagem. Adoraria ouvir de você.</p>
             </div>
             <div className="footer-social">
-                <Link href="https://github.com/yourprofile" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/matteuou" target="_blank" aria-label="GitHub">
                     <i className="fab fa-github"></i>
                 </Link>
-                <Link href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/mateus-martini-19128b359/" target="_blank" aria-label="LinkedIn">
                     <i className="fab fa-linkedin"></i>
                 </Link>
-                <Link href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+                <Link href="#" target="_blank" aria-label="Twitter">
                     <i className="fab fa-twitter"></i>
                 </Link>
             </div>
